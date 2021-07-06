@@ -13,9 +13,10 @@ body{
 ============================================================================== */
 .topSection {
     display: flex;
+    background-color: #ffffff;
 }
 .main_titel{
-    width:50%;
+    width:40%;
     margin-left:10%;
     margin-top: 90px;
 }
@@ -32,12 +33,13 @@ body{
     font-size: 50px;
 }
 .fisrtLookImg {
-    width:50%;
-    margin-right: 5%;
+    width:45%;
+    margin-left:150px;
 }
 
 .fisrtLookImg img{
-    width: 140%;
+    width: 90%;
+   
     animation-name: first_animation;
     animation-duration: 4s;  
 }
@@ -100,7 +102,7 @@ body{
     transition: all 1s ease;
 }
 .about_us_text{
-    width: 40%;
+    width:35%;
     margin-right:5%;
 }
 .aboutUsHeading{
