@@ -34,7 +34,7 @@
 }
 
 .fisrtLookImg img{
-    width: 120%;
+    width: 140%;
     
 }
 .buttonContainer{
@@ -43,7 +43,7 @@
 .button{
     font-weight: 700;
     text-decoration: none;
-    padding: 25px 45px;
+    padding: 20px 45px;
     background: linear-gradient(#ff8b76dc,#ff0000 );
     border-radius: 50px;
     color: #ffffff;
@@ -59,3 +59,61 @@
     border-radius: 5px;
     background: #378dff52;
 }
+/* ===========================================================================
+                       ** Top Section CSS END**
+============================================================================== */
+
+/* ===========================================================================
+                       ** Mid-Section(about us) CSS START**
+============================================================================== */
+.aboutUsSec{
+    display: flex;
+    background-image: url(shapes/Frame58.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.aboutUsImg{
+    width: 60%;
+    /* margin-left:2%; */
+}
+.aboutUsImg img{
+    width: 120%;
+    
+}
+.about_us_text{
+    width: 40%;
+    margin-right:5%;
+}
+.aboutUsHeading{
+    font-size: 55px;
+    color:  #0d0d5f;
+    
+}
+
+.contractButton {
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 45px;
+    background: linear-gradient(#ce03ce, #00008b);
+    border-radius: 50px;
+    color: #ffffff;
+
+
+}
+
+.contractButton:hover {
+   background: linear-gradient(#ff8b76dc, #ff0000);
+}
+
+.contractButton:active {
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    background: #378dff52;
+}
+
+
+
+/* ===========================================================================
+                       ** Mid-Section(about us) CSS END**
+============================================================================== */
