@@ -8,6 +8,8 @@
 }
 body{
      background-color: rgb(245, 244, 244);
+     
+     
 }
 /* ===========================================================================
                        ** Top Section CSS START**
@@ -23,13 +25,22 @@ body{
     
 
 }
+.main_titel h1:hover {
+    transform: translateY(-30px);
+    transition: all .5s ease;
+}
 .main_titel h1 {
-    font-size: 40px; 
+    font-size: 40px;
+    
     
  }
+ 
+
+ 
 .titelstyle {
     color: orangered;
     font-size: 50px;
+    
 }
 .fisrtLookImg {
     width:50%;
@@ -38,10 +49,15 @@ body{
 
 .fisrtLookImg img{
     width: 140%;
+    animation-name: first_animation;
+    animation-duration: 4s;
     
 }
 .buttonContainer{
     margin-top: 80px;
+    animation-name: first_animation;
+    animation-duration: 4s;
+    
 }
 .button{
     font-weight: 700;
@@ -50,6 +66,7 @@ body{
     background: linear-gradient(#ff8b76dc,#ff0000 );
     border-radius: 50px;
     color: #ffffff;
+    
    
     
 }
@@ -61,6 +78,17 @@ body{
     border: 2px solid #f0f0f0;
     border-radius: 5px;
     background: #378dff52;
+}
+
+@keyframes first_animation {
+    from {
+        transform: scale(.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+
 }
 /* ===========================================================================
                        ** Top Section CSS END**
@@ -78,7 +106,7 @@ body{
 }
 .aboutUsImg{
     width: 60%;
-    /* margin-left:2%; */
+  
 }
 .aboutUsImg img{
     width: 120%;
@@ -139,8 +167,9 @@ body{
 .Recipies {
     width: 20%;
     margin-left: 9%;
-    margin-top: 100px;
-    border: 4px solid;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    box-shadow: 8px 8px 40px rgb(87, 87, 87);
     padding:15px;
     line-height: 1.5em;
     border-radius: 20px;
@@ -153,6 +182,11 @@ body{
     border-radius: 15px;
 
 }
+.Recipies:hover {
+    transform: translateY(-80px);
+    transition: all 1s ease;
+}
+
 
 
 
