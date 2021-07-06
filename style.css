@@ -1,46 +1,35 @@
 /* ===========================================================================
-                       **COMMON STYLE**
+                         **COMMON STYLE**
 ============================================================================== */
 * {
     font-family: 'Exo 2', sans-serif;
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
 body{
-     background-color: rgb(245, 244, 244);
-     
-     
+     background-color: #f8f8f8; 
 }
 /* ===========================================================================
                        ** Top Section CSS START**
 ============================================================================== */
 .topSection {
     display: flex;
-   
 }
 .main_titel{
     width:50%;
     margin-left:10%;
     margin-top: 90px;
-    
-
 }
 .main_titel h1:hover {
     transform: translateY(-30px);
     transition: all .5s ease;
 }
 .main_titel h1 {
-    font-size: 40px;
-    
-    
+    font-size: 40px;   
  }
- 
-
  
 .titelstyle {
     color: orangered;
     font-size: 50px;
-    
 }
 .fisrtLookImg {
     width:50%;
@@ -50,14 +39,12 @@ body{
 .fisrtLookImg img{
     width: 140%;
     animation-name: first_animation;
-    animation-duration: 4s;
-    
+    animation-duration: 4s;  
 }
 .buttonContainer{
     margin-top: 80px;
     animation-name: first_animation;
-    animation-duration: 4s;
-    
+    animation-duration: 4s; 
 }
 .button{
     font-weight: 700;
@@ -66,9 +53,6 @@ body{
     background: linear-gradient(#ff8b76dc,#ff0000 );
     border-radius: 50px;
     color: #ffffff;
-    
-   
-    
 }
 .button:hover {
     background: linear-gradient(#ce03ce, darkblue);
@@ -84,7 +68,6 @@ body{
     from {
         transform: scale(.5);
     }
-
     to {
         transform: scale(1);
     }
@@ -109,8 +92,12 @@ body{
   
 }
 .aboutUsImg img{
-    width: 120%;
+    width: 100%;
     
+}
+.aboutUsImg img:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
 }
 .about_us_text{
     width: 40%;
@@ -142,14 +129,14 @@ body{
     background: #378dff52;
 }
 /* ===========================================================================
-                       ** Mid-Section(about us) CSS END**
+                   ** Mid-Section(about us) CSS END**
 ============================================================================== */
 
 
 
 
 /* ===========================================================================
-                       ** bottom-Section(Our Recipie) CSS START**
+                 ** bottom-Section(Our Recipie) CSS START**
 ============================================================================== */
 #recipieSec{
     display: flex;
@@ -168,8 +155,8 @@ body{
     width: 20%;
     margin-left: 9%;
     margin-top: 80px;
-    margin-bottom: 100px;
-    box-shadow: 8px 8px 40px rgb(87, 87, 87);
+    margin-bottom: 200px;
+    box-shadow: 8px 8px 40px #575757;
     padding:15px;
     line-height: 1.5em;
     border-radius: 20px;
@@ -180,25 +167,50 @@ body{
 .Recipies img{
     width:100%;
     border-radius: 15px;
-
 }
 .Recipies:hover {
     transform: translateY(-80px);
     transition: all 1s ease;
 }
 
-
-
-
 /* ===========================================================================
                        ** bottom-Section(Our Recipie) CSS END**
 ==============================================================================*/
 
 
+
+/* ===========================================================================
+                       ** Customer Review section CSS START**
+==============================================================================*/
+#Reviews{
+    display:flex;
+    width:85%;
+    margin: 0 auto;
+    box-shadow: 8px 8px 40px #949494;
+    margin-bottom: 200px;
+    border-radius: 15px;
+    
+}
+.Opinion{
+    width: 100%;
+    text-align: center;
+}
+.Opinion h3{
+    font-size: 50px;
+}
+.Opinion p{
+    color: rgb(88, 88, 88);
+}
+
+/* ===========================================================================
+                       ** Customer Review section CSS END**
+==============================================================================*/
+
+
 footer{
     text-align: center;
-    padding: 10px 0px 22px;
-    background: rgb(11, 11, 90);
+    padding: 10px 0px 30px;
+    background: #09094d;
     color: white;
     position: relative;
     margin-bottom: 20px;
@@ -214,3 +226,9 @@ footer span{
     font-size: 12px;
     color:#cecdcd;
 }
+/* =================================================================================
+   Thank you Sir, 
+   Name:Sourav Rajbongshi
+   Email:Shouravrajbonshi4128@gamil.com
+   **Love and respect for Programming hero**
+======================================================================================*/
