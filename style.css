@@ -6,6 +6,9 @@
     text-decoration: none;
    
 }
+body{
+     background-color: rgb(245, 244, 244);
+}
 /* ===========================================================================
                        ** Top Section CSS START**
 ============================================================================== */
@@ -87,7 +90,7 @@
 }
 .aboutUsHeading{
     font-size: 55px;
-    color:  #0d0d5f;
+    color:  #020280;
     
 }
 
@@ -98,7 +101,6 @@
     background: linear-gradient(#ce03ce, #00008b);
     border-radius: 50px;
     color: #ffffff;
-
 
 }
 
@@ -111,9 +113,49 @@
     border-radius: 5px;
     background: #378dff52;
 }
+/* ===========================================================================
+                       ** Mid-Section(about us) CSS END**
+============================================================================== */
+
 
 
 
 /* ===========================================================================
-                       ** Mid-Section(about us) CSS END**
+                       ** bottom-Section(Our Recipie) CSS START**
 ============================================================================== */
+#recipieSec{
+    display: flex;
+}
+#recipieTitel {
+    width: 500px;
+    margin: 0 auto;
+    text-align:center;
+}
+.best_recipie{
+    font-size: 35px;
+    color: #060680;
+}
+
+.Recipies {
+    width: 20%;
+    margin-left: 9%;
+    margin-top: 100px;
+    border: 4px solid;
+    padding:15px;
+    line-height: 1.5em;
+    border-radius: 20px;
+}
+.Recipies h2{
+    font-weight:bolder;
+}
+.Recipies img{
+    width:100%;
+    border-radius: 15px;
+
+}
+
+
+
+/* ===========================================================================
+                       ** bottom-Section(Our Recipie) CSS END**
+==============================================================================*/
